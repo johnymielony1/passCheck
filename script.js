@@ -2,9 +2,7 @@ $(function(){
 
     $('input').on('keyup',function(){
         const pass = $('input').val();
-        passLen = pass.length; 
-        console.log(passLen);
-        $('#znaki').text(passLen);
+        $('#znaki').text(pass.length);
     })
 
 
